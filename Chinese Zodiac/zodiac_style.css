@@ -1,0 +1,27 @@
+    *{
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    }
+    html{
+    background-color: #F8EDD3;
+    }
+    body{
+        text-align: center;
+        position: relative;
+        min-height: 100vh;
+    }
+    td{
+        padding-right:20%;
+        padding-left:20%;
+    }
+    form{
+        padding: 10px;
+        border: solid 2px black;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    form, p{
+        padding: 10px;
+    }
+    /* " */

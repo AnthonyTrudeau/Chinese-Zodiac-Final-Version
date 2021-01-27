@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Feedback</title>
+    
+    <!-- External Style Sheet -->
+    <link rel="stylesheet" href="zodiac_style.css">
+    
+</head>
+<body>
+    
+    <h1>Zodiac Feedback</h1>
+    <h3>Enter your feedback here</h3>
+    <h4>You must enter all fields</h4>
+    
+    <form method="post" action="process_zodiac_feedback.php">
+        <p>Name: <input type="text" name="name" required/></p>
+        <p>Message: <input type="text" name="message" required/></p>
+        <p>Public: <input type="checkbox" id="public" name="public" value="true" checked></p>
+        <input type ="submit" name ="submit" value ="Submit"/>
+    </form>
+
+</body>
+</html>
